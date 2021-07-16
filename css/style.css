@@ -23,10 +23,12 @@ body {
 }
 
 h1 {
+  font-weight: 300;
   font-size: 2.5em;
 }
 
 h2 {
+  font-weight: 300;
   font-size: 1.875em;
 }
 
@@ -49,6 +51,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 img {
@@ -75,7 +78,6 @@ header li {
 }
 
 header a {
-  color: white;
   padding: 10px 5px;
   margin: 0 5px;
 }
@@ -153,4 +155,29 @@ header a:hover {
 .cloud-content p {
   margin: 20px 0;
   font-size: 20px;
+}
+
+/* LANGUAGES */
+.languages .flex {
+  flex-wrap: wrap;
+}
+
+.languages h1 {
+  margin-bottom: 20px;
+}
+
+.languages h3 {
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--dark-color);
+  color: white;
+  margin-top: 40px;
+  padding: 40px 0;
+}
+
+footer i {
+  margin: 0 10px;
 }
