@@ -75,6 +75,7 @@
 }
 
 .bg-light {
+  color: #333;
   background-color: var(--light-color);
 }
 
