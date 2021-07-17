@@ -98,6 +98,10 @@
 }
 
 /* Text sizes */
+.text-lead {
+  font-size: 1.25rem;
+}
+
 .text-sm {
   font-size: 1rem;
 }
